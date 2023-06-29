@@ -1,3 +1,3 @@
-import getSanFranciscoDescription from './0x00-ES6_basic/6-string-interpolation.js';
+import getBudgetObject from './0x00-ES6_basic/7-getBudgetObject.js';
 
-console.log(getSanFranciscoDescription());
+console.log(getBudgetObject(400, 700, 900));
