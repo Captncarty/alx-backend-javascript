@@ -1,4 +1,4 @@
-import taskBlock from './0x00-ES6_basic/1-block-scoped';
+import getResponseFromAPI from "./0x01-ES6_promise/0-promise";
 
-console.log(taskBlock(true));
-console.log(taskBlock(false));
+const response = getResponseFromAPI();
+console.log(response instanceof Promise);
