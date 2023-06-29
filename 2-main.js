@@ -1,3 +1,3 @@
-import getBudgetObject from './0x00-ES6_basic/7-getBudgetObject.js';
+import getBudgetForCurrentYear from './0x00-ES6_basic/8-getBudgetCurrentYear.js';
 
-console.log(getBudgetObject(400, 700, 900));
+console.log(getBudgetForCurrentYear(2100, 5200, 1090));
