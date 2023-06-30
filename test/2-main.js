@@ -1,4 +1,4 @@
-import HolbertonCourse from "./0x02-ES6_classes/2-hbtn_course";
+import HolbertonCourse from "./0x02-ES6_classes/2-hbtn_coursec";
 
 const c1 = new HolbertonCourse("ES6", 1, ["Bob", "Jane"])
 console.log(c1.name);
